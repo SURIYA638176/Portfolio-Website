@@ -1,0 +1,88 @@
+*{
+   margin: 10px;
+
+}
+
+body {
+    font-family: "Young Serif", serif;
+    border: solid black 3px;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-top: 20px;
+    border-radius: 10px
+ }
+ .section-one__name{
+    font-size: 60px;
+ }
+ .section-one__role{
+    font-size: 20px;
+ }
+ .section-one__contect,.section-one__role{
+    margin-top: 20px;
+ }
+ .section-one__contect{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    width: 70px;
+    text-align: center; 
+ }
+ .section-one__contect:hover{
+    background-color: black;
+    color: greenyellow;
+    border: solid white 2px;
+ }
+
+.section-container{
+    margin-top: 10px;
+}
+.section-container__input,.section-container__message,.section-container__submit{
+    margin-top: 10px;
+}
+.section-container__input{
+    border: none;
+    border-bottom: solid gray 3px;
+}
+.section-container__message{
+    border: none;
+    border: solid black 2px;
+    text-align: center;
+    padding-top: 8px;
+}
+.section-container__submit{
+    background-color: orange;
+    border: solid black 3px;
+    padding: 10px;
+    width: 100px;
+
+ 
+
+}
+.section-container__submit:hover{
+    color:aqua;
+    background-color: black;
+    border: solid orchid 2px;
+}
+.section-about{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.section-about__desc{
+   margin-top: 20px;
+}
+.section-about__link{
+    color: aquamarine;
+    text-decoration: none;
+}
+.section-container{
+    margin-left: 20px;
+}
